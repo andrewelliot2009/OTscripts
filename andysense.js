@@ -645,7 +645,7 @@ main()
 
 Global.RegisterCallback("Draw", "draw_gs_watermark")
 Cheat.RegisterCallback("Draw", "DRAW");
-UI.AddLabel("Chromesense Utilities");
+UI.AddLabel("Andrewsense Utilities");
 UI.AddLabel("______________________________________");
 UI.AddCheckbox("LegitAA");
 UI.AddHotkey("Left");
