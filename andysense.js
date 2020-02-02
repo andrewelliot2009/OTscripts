@@ -523,7 +523,6 @@ function molotov_detonated() {
     const magnitude = Math.sqrt((Event.GetFloat('x') - player_pos[0]) ** 2 + (Event.GetFloat('y') - player_pos[1]) ** 2);
     if (magnitude <= 175 && Math.abs(Event.GetFloat('z') - player_pos[2]) <= 300) current = 0;
 } Cheat.RegisterCallback('molotov_detonate', 'molotov_detonated');
-Cheat.RegisterCallback('Draw', 'on_draw');
 
 function DRAW() {
     e = UI.GetValue("LegitAA")
